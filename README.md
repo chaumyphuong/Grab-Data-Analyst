@@ -14,7 +14,7 @@ Based on these insights, the report will provide data-driven recommendations on 
 
 ## Dataset
 
-**File:** [grab_vn_case.db](grab_vn_case.db) (SQLite)
+**File:** `grab_vn_case.db` (SQLite)
 **Schema reference:** [data_dictionary.md](data_dictionary.md)
 
 | Table | Description |
