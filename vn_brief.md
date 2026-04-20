@@ -35,57 +35,6 @@ There is no predetermined correct answer. What we are looking for is how rigorou
 
 ---
 
-## Dataset
 
-**File:** `grab_vn_case.db` (SQLite)
-**Schema reference:** `grab_vn_case_metadata.md`
 
-| Table | Description |
-|---|---|
-| `transactions` | 182,000+ individual transactions across all cities and services |
-| `users` | User profiles — city, payment preference, behavioural segment |
-| `weather_daily` | Daily rainfall per city in mm |
-| `daily_gmv_summary` | Pre-aggregated view for quick trend queries |
 
-Figures are in **VND thousands**. Divide by 1,000 to get millions.
-
----
-
-## How to Approach This
-
-Use AI tools to handle the mechanical parts — querying, charting, formatting. Your job is to ask the right questions, pressure-test the outputs, and know when a result looks wrong.
-
-The best submissions are not the most technically elaborate. They are the ones where it is clear the analyst was driving — deciding what to look for, catching where the data or the AI misled them, and ultimately owning the recommendation.
-
-Think beyond the surface numbers. The dataset contains more than one story.
-
----
-
-## Deliverables
-
-Submit all three of the following:
-
-**1. Analysis artefact**
-Your working file — notebook, SQL script, or equivalent. We care about the reasoning trail, not the format.
-
-**2. Executive brief**
-A maximum one-page narrative addressed to the Country Head. Write it as if you are sending it before the rollout decision is made. It should state your position clearly and give him the two or three things he must understand before acting.
-
-**3. AI interaction log**
-Export the full conversation history from any LLM session used during this assessment (ChatGPT export, Claude conversation, etc.). If you used multiple tools, include all logs. Do not edit or curate the log — we want to see the raw interaction including dead ends and corrections.
-
----
-
-## Notes
-
-- Any AI tool is permitted: ChatGPT, Claude, Gemini, Copilot, or others
-- The debrief will focus on your log: why you prompted the way you did, how you validated outputs, and where you disagreed with the AI
-- Schema questions should be answered by `grab_vn_case_metadata.md` before reaching out to your hiring contact
-
----
-
-## Submission
-
-Send all three deliverables to your hiring contact by the deadline.
-
-Good luck.
