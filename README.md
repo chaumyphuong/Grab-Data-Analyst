@@ -11,4 +11,26 @@ Encouraged by the GMV growth and aiming to quickly counter competitors, the Coun
 # Purpose Of The Report
 This report aims to analyze the business performance of Grab in Ho Chi Minh City (HCMC) before and during the implementation of the Super-Combo Voucher program. It will evaluate key metrics such as GMV, transaction volume, customer behavior, and service-type performance to assess the true impact of the program.
 Based on these insights, the report will provide data-driven recommendations on whether the Country Head should proceed with rolling out the Super-Combo Voucher in Hanoi, and under what conditions to ensure effectiveness and sustainability.
-This report will based on the dataset of  grab_vn_case.db
+
+## Dataset
+
+**File:** [grab_vn_case.db](grab_vn_case.db) (SQLite)
+**Schema reference:** [data_dictionary.md](data_dictionary.md)
+
+| Table | Description |
+|---|---|
+| `transactions` | 182,000+ individual transactions across all cities and services |
+| `users` | User profiles — city, payment preference, behavioural segment |
+| `weather_daily` | Daily rainfall per city in mm |
+| `daily_gmv_summary` | Pre-aggregated view for quick trend queries |
+
+Figures are in **VND thousands**. Divide by 1,000 to get millions.
+
+# Report
+[Excetive Brief](Excetive_Brief)
+
+# Visualization
+1.  Jupyter Notebook: [grab_test.ipynb](grab_test.ipynb)
+2.  PowerBI: [grab.pbix](grab.pbix)
+<img width="2767" height="1600" alt="grab-1" src="https://github.com/user-attachments/assets/a1d1e925-8364-44c8-bcb6-758537f4a0eb" />
+
